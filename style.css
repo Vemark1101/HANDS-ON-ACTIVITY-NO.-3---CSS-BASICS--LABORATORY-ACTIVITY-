@@ -1,0 +1,170 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #0000ff;
+    color:#ffffff;
+}
+
+nav ul{
+    background-color: bisque;
+    text-align: center;
+}
+
+ nav ul li{
+    display: inline-block;
+    padding: 0.5rem;
+    list-style-type: none;
+    
+}
+
+li a{
+    text-decoration: none;
+    padding: 1rem;
+    color:#000000
+}
+
+li a:hover{
+    color:#0000ff;
+    text-decoration: underline; 
+}
+
+main{
+    margin: 20px;
+}
+
+.profile-card {
+  display: flex;
+  align-items: center; /* Vertically centers text with image */
+  gap: 20px; /* Space between picture and text */
+  max-width: 500px;
+}
+
+.profile-img {
+  width: 200px; /* Set desired width */
+  height: 200px; /* Set desired height */
+  object-fit: cover; /* Ensures image covers area without distortion */
+}
+
+.profile-info p {
+  margin: 5px 0;
+}
+
+.life-sections {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.item {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .life-sections {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hobbies {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.hobbies h4 {
+  margin-bottom: 10px;
+}
+
+.hobbies ul {
+  padding-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .hobbies {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+h4{
+    margin-top: 0;
+    color: #333;
+}
+
+
+.hobbies{
+    padding-top: 15px;
+}
+
+article h4{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+article ul{
+    padding-left: 15px;
+}
+
+.container {
+    display: flex; /* Aligns child elements (image and paragraph) side-by-side */
+    align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
+    gap: 20px; /* Optional: Adds space between the image and the paragraph */
+}
+
+.container img {
+    /* Optional: Set a specific width for the image */
+    width: 200px; 
+    height: auto; 
+}
+
+.con2 {
+    display: flex; /* Aligns child elements (image and paragraph) side-by-side */
+    align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
+    gap: 20px; /* Optional: Adds space between the image and the paragraph */
+}
+
+.con2 img {
+    /* Optional: Set a specific width for the image */
+    width: 200px; 
+    height: auto; 
+}
+
+
+.container3 {
+    display: flex; /* Aligns child elements (image and paragraph) side-by-side */
+    align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
+    gap: 20px; /* Optional: Adds space between the image and the paragraph */
+}
+
+.container3 img {
+    /* Optional: Set a specific width for the image */
+    width: 200px; 
+    height: auto; 
+}
+
+footer p{
+    text-align: center; 
+}
+.b{
+    font-weight: bolder;
+    
+}
