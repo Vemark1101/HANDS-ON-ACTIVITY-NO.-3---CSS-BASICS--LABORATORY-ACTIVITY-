@@ -115,6 +115,7 @@ main {
     display: flex; /* Aligns child elements (image and paragraph) side-by-side */ 
     align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
     gap: 20px; /* Optional: Adds space between the image and the paragraph */
+    flex-wrap: nowrap;
 }
 
 .fav-artist img {
@@ -127,6 +128,7 @@ main {
     display: flex; /* Aligns child elements (image and paragraph) side-by-side */
     align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
     gap: 20px; /* Optional: Adds space between the image and the paragraph */
+    flex-wrap: nowrap;
 }
 
 .fav-food img {
@@ -139,6 +141,7 @@ main {
     display: flex; /* Aligns child elements (image and paragraph) side-by-side */
     align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
     gap: 20px; /* Optional: Adds space between the image and the paragraph */
+    flex-wrap: nowrap;
 }
 
 .fav-place img {
