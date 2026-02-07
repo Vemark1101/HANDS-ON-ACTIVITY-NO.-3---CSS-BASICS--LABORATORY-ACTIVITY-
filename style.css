@@ -111,37 +111,37 @@ main {
     padding-bottom: 10px;
 }
 
-.container1 {
+.fav-artist {
     display: flex; /* Aligns child elements (image and paragraph) side-by-side */ 
     align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
     gap: 20px; /* Optional: Adds space between the image and the paragraph */
 }
 
-.container1 img {
+.fav-artist img {
     width: 200px; /* Optional: Set a specific width for the image */
     height: 200px;
     object-fit: cover;   /* Ensures image covers area without distortion */
 }
 
-.container2 {
+.fav-food {
     display: flex; /* Aligns child elements (image and paragraph) side-by-side */
     align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
     gap: 20px; /* Optional: Adds space between the image and the paragraph */
 }
 
-.container2 img {
+.fav-food img {
     width: 200px;  /* Optional: Set a specific width for the image */
     height: 200px;
     object-fit: cover; /* Ensures image covers area without distortion */
 }
 
-.container3 {
+.fav-place {
     display: flex; /* Aligns child elements (image and paragraph) side-by-side */
     align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
     gap: 20px; /* Optional: Adds space between the image and the paragraph */
 }
 
-.container3 img {
+.fav-place img {
     width: 500px;  /* Optional: Set a specific width for the image */
     height: 300px;
     object-fit: cover;  /* Ensures image covers area without distortion */
