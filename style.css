@@ -13,20 +13,20 @@ body {
 }
 
 header h1 {
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-    background-color: #0000ff;
+    background-color: rgb(6, 6, 116);
     color: #ffffff;
 }
 
 header nav ul {
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0.63);
     text-align: center;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 0.5rem;
+    padding: 10px;
     list-style-type: none;
 
 }
@@ -47,25 +47,17 @@ main {
 }
 
 .profile-card {
-    display: flex;
-    align-items: center;
-    /* Vertically centers text with image */
-    gap: 20px;
-    /* Space between picture and text */
-    max-width: 500px;
+    display: flex;  
+    align-items: center; 
+    gap: 20px; /* Vertically centers text with image */
+    max-width: 500px;  /* Space between picture and text */
 }
 
 .profile-img {
-    width: 200px;
-    /* Set desired width */
-    height: 200px;
-    /* Set desired height */
-    object-fit: cover;
-    /* Ensures image covers area without distortion */
-}
-
-.profile-info p {
-    margin: 5px 0;
+    width: 200px;  /* Set desired width */
+    height: 200px; /* Set desired height */  
+    object-fit: cover; /* Ensures image covers area without distortion */
+    border: 1px solid black;
 }
 
 .life-sections {
@@ -85,19 +77,27 @@ main {
     }
 }
 
+#my-hobbies{
+    padding-bottom: 10px;
+
+}
+
 .hobbies {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
-.hobbies h4 {
+.hobbies h3 {
     margin-bottom: 10px;
-    padding-top: 5px;
 }
 
 .hobbies ul {
     padding-left: 20px;
+}
+
+.hobbies ul li{
+    padding-bottom: 5px;
 }
 
 @media (max-width: 768px) {
@@ -106,60 +106,45 @@ main {
     }
 }
 
-.fav h4 {
+.fav h3 {
     padding-top: 15px;
     padding-bottom: 10px;
 }
 
 .container1 {
-    display: flex;
-    /* Aligns child elements (image and paragraph) side-by-side */
-    align-items: flex-start;
-    /* Aligns children to the start (top) of the container's cross-axis */
-    gap: 20px;
-    /* Optional: Adds space between the image and the paragraph */
+    display: flex; /* Aligns child elements (image and paragraph) side-by-side */ 
+    align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
+    gap: 20px; /* Optional: Adds space between the image and the paragraph */
 }
 
 .container1 img {
-    width: 200px;
-    /* Optional: Set a specific width for the image */
+    width: 200px; /* Optional: Set a specific width for the image */
     height: 200px;
-    object-fit: cover;
-    /* Ensures image covers area without distortion */
+    object-fit: cover;   /* Ensures image covers area without distortion */
 }
 
 .container2 {
-    display: flex;
-    /* Aligns child elements (image and paragraph) side-by-side */
-    align-items: flex-start;
-    /* Aligns children to the start (top) of the container's cross-axis */
-    gap: 20px;
-    /* Optional: Adds space between the image and the paragraph */
+    display: flex; /* Aligns child elements (image and paragraph) side-by-side */
+    align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
+    gap: 20px; /* Optional: Adds space between the image and the paragraph */
 }
 
 .container2 img {
-    width: 200px;
-    /* Optional: Set a specific width for the image */
+    width: 200px;  /* Optional: Set a specific width for the image */
     height: 200px;
-    object-fit: cover;
-    /* Ensures image covers area without distortion */
+    object-fit: cover; /* Ensures image covers area without distortion */
 }
 
 .container3 {
-    display: flex;
-    /* Aligns child elements (image and paragraph) side-by-side */
-    align-items: flex-start;
-    /* Aligns children to the start (top) of the container's cross-axis */
-    gap: 20px;
-    /* Optional: Adds space between the image and the paragraph */
+    display: flex; /* Aligns child elements (image and paragraph) side-by-side */
+    align-items: flex-start; /* Aligns children to the start (top) of the container's cross-axis */
+    gap: 20px; /* Optional: Adds space between the image and the paragraph */
 }
 
 .container3 img {
-    /* Optional: Set a specific width for the image */
-    width: 450px;
+    width: 500px;  /* Optional: Set a specific width for the image */
     height: 300px;
-    object-fit: cover;
-    /* Ensures image covers area without distortion */
+    object-fit: cover;  /* Ensures image covers area without distortion */
 }
 
 footer p {
